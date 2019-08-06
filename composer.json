@@ -17,6 +17,10 @@
         "zetacomponents-mail": {
             "type": "vcs",
             "url": "https://github.com/civicrm/zetacomponents-mail.git"
+        },
+        "civicrm-composer-plugin": {
+          "type": "vcs",
+          "url": "https://github.com/elisseck/civicrm-composer-plugin.git"
         }
     },
     "require": {
@@ -28,7 +32,6 @@
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.6.0",
         "drush/drush": "^9.0.0",
-        "roundearth/civicrm-composer-plugin": "*",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",
